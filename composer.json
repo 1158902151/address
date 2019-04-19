@@ -1,0 +1,26 @@
+{
+    "name": "xieqiyong\/address",
+    "description": "A get Address or Ip SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xieqiyong",
+            "email": "xieqiyong666@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xieqiyong\\Address\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xieqiyong\\Address\\GaoDeProvider"
+            ]
+        }
+    }
+}
